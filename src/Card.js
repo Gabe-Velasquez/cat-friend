@@ -1,5 +1,6 @@
 import React from "react";
 
+//setting up card template for all users
 const Card = ({name, email, id}) => {
     return(
         <div className='tc bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-4'>
